@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#FF5733</color> <!-- Primary color (e.g., a shade of red) -->
+    <color name="colorPrimaryDark">#C1351D</color> <!-- Darker shade for status bar -->
+    <color name="colorAccent">#FFC300</color> <!-- Accent color -->
+    <color name="backgroundColor">#FFFFFF</color> <!-- Background color -->
+    <color name="statusBarColor">#FF5733</color> <!-- Status bar color -->
+
+</resources>
