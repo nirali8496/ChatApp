@@ -26,11 +26,11 @@ class ChatViewModel : ViewModel() {
 
     fun connectSocket() {
 //        val request = Request.Builder().url("wss://demo.piesocket.com/v3/channel_1?api_key=VCXCEuvhGcBDP7XhiJJUDvR1e1D3eiVjgZ9VRiaV").build()
-        val request = Request.Builder().url("wss://demo.piesocket.com/v3/channel_1?api_key=03aa4515462e05c48f976a1373ccb7693c7990ec").build()
+//        val request = Request.Builder().url("wss://demo.piesocket.com/v3/channel_1?api_key=03aa4515462e05c48f976a1373ccb7693c7990ec").build()
 
-/*        val request = Request.Builder()
+        val request = Request.Builder()
             .url("wss://echo.websocket.events")  // ✅ Free public echo server
-            .build()*/
+            .build()
 
         webSocket = client.newWebSocket(request, object : WebSocketListener() {
 
